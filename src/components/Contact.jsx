@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMessage, faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faMessage, faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
@@ -26,6 +26,11 @@ const Contact = () => {
                                     </div>
                                     <div className="mt-8">
                                         <div className="flex flex-col ... items-center ">
+                                            <div className="text-xl mb-3 badge badge-neutral badge-outline font-bold p-6 w-full justify-start sm:w-1/3">
+                                                <a href="/images/supitcha-kaewkham-resume.pdf" target="_blank" rel="noreferrer" className="flex flex-row items-center gap-3 ">
+                                                    <FontAwesomeIcon icon={faFile} className="w-10 h-10"  />
+                                                    <p>Resume</p></a>
+                                            </div>
                                             <div className="text-xl mb-3 badge badge-neutral badge-outline font-bold p-6 w-full justify-start sm:w-1/3">
                                                 <a href="mailto:supitcha.skh@gmail.com" className="flex flex-row items-center gap-3 ">
                                                     <FontAwesomeIcon icon={faSquareEnvelope} className="w-10 h-10" color="red" />
