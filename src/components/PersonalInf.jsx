@@ -14,7 +14,7 @@ const PersonalInf = () => {
                 </div>
                 <div className="justify-center flex flex-col sm:flex-row ">
                     <div className="w-full sm:w-1/2 ">
-                        <table className="table">
+                        <table className="table border-none [&_*]:border-none">
                             <tbody>
                                 <tr className="border-none">
                                     <th className="text-base text-start">Firstname: </th>
@@ -40,7 +40,7 @@ const PersonalInf = () => {
                         </table>
                     </div>
                     <div className="w-full sm:w-1/2">
-                        <table className="table">
+                        <table className="table border-none [&_*]:border-none">
                             <tbody>
                                 <tr className="hidden">
                                     <th></th>

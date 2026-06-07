@@ -17,7 +17,7 @@ const Skills = () => {
           </div>
           <div>
             {/* skill */}
-            <table className="table">
+            <table className="table border-none [&_*]:border-none">
               <tbody>
                 <tr className="border-none">
                   <th className="flex flex-row items-center">

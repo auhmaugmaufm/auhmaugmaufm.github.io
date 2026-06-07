@@ -203,8 +203,7 @@ const Projects = () => {
             <div>
               <div className="card sm:card-side bg-base-100 shadow-lg">
                 <figure className="max-w-[400px] w-full">
-                  {/* FIXME: add photo */}
-                  <img src={imageUrl("financial.png")} alt="financial" />
+                  <img src={imageUrl("finance.png")} alt="financial" />
                 </figure>
                 <div className="card-body">
                   <a href="https://github.com/auhmaugmaufm/mobile-project" target="_blank" className="flex flex-row items-center">
@@ -225,10 +224,12 @@ const Projects = () => {
                     <div className="badge badge-info text-base font-bold">Python</div>
                   </div>
                   <div className="flex flex-wrap gap-3">
-                    <div className="badge badge-warning text-base font-bold">Express</div>
+                   <div className="badge badge-warning text-base font-bold">Express</div>
                     <div className="badge badge-warning text-base font-bold">NodeJS</div>
                     <div className="badge badge-info text-base font-bold">FastAPI</div>
                     <div className="badge badge-info text-base font-bold">Yolo</div>
+                  </div>
+                  <div className="flex flex-wrap gap-3">
                     <div className="badge badge-info text-base font-bold">EasyOCR</div>
                     <div className="badge badge-neutral text-base font-bold">MySQL</div>
                     <div className="badge badge-neutral text-base font-bold">SQLite</div>
@@ -242,7 +243,6 @@ const Projects = () => {
             <div>
               <div className="card sm:card-side bg-base-100 shadow-lg">
                 <figure className="max-w-[400px] w-full">
-                  {/* FIXME: add photo */}
                   <img src={imageUrl("ctd.png")} alt="ctd" />
                 </figure>
                 <div className="card-body">

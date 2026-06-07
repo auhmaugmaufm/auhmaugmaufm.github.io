@@ -28,7 +28,7 @@ const Contact = () => {
                                         <div className="flex flex-col ... items-center ">
                                             <div className="text-xl mb-3 badge badge-neutral badge-outline font-bold p-6 w-full justify-start sm:w-1/3">
                                                 <a href="/resume.pdf" target="_blank" rel="noreferrer" className="flex flex-row items-center gap-3 ">
-                                                    <FontAwesomeIcon icon={faFile} className="w-10 h-10"  />
+                                                    <FontAwesomeIcon icon={faFile} className="w-10 h-10" color="grey" />
                                                     <p>Resume</p></a>
                                             </div>
                                             <div className="text-xl mb-3 badge badge-neutral badge-outline font-bold p-6 w-full justify-start sm:w-1/3">
